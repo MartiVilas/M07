@@ -13,8 +13,12 @@
 
 <body>
 
-    <?php 
-        
+    <?php
+        for ($i = 1; $i <= 10; $i++) {
+                $resultado = $i * 7;
+                echo "$i * 7 = $resultado ";
+                echo "<br>";
+            }
     ?>
 
 </body>

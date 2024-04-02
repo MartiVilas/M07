@@ -8,12 +8,11 @@
     <!----------------SCRIPT-------------->
     <script src="./main.js" defer></script>
 
-    <title>Titulo</title>
+    <title>Ex2: Mostra els números del 100 al 1.</title>
 </head>
 <!--------Mostra els números del 100 al 0 posant els parells en negreta----->
 <body>
     <?php 
-
         for($i=100; $i >= 0; $i--){
             if($i%2==0){
                 echo "<strong>$i</strong>";
@@ -23,7 +22,6 @@
                 echo "<br>";
             }
         }
-
     ?>
 </body>
 </html>
