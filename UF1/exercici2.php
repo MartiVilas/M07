@@ -8,14 +8,22 @@
     <!----------------SCRIPT-------------->
     <script src="./main.js" defer></script>
 
-    <title>Ex1: Mostra numeros del 1 al 100</title>
+    <title>Titulo</title>
 </head>
-<!------Mostra els números del 0 al 100 fent servir un bucle for------>
+<!--------Mostra els números del 100 al 0 posant els parells en negreta----->
 <body>
-    <?php
-        for($i = 1; $i = 100; $i++){
-            echo $i
+    <?php 
+
+        for($i=100; $i >= 0; $i--){
+            if($i%2==0){
+                echo "<strong>$i</strong>";
+                echo "<br>";
+            } else if($i%3==0) {
+                echo "<em>$i</em>";
+                echo "<br>";
+            }
         }
+
     ?>
 </body>
 </html>
